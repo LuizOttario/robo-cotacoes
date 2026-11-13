@@ -1,0 +1,5 @@
+config.ini
+cotacoes.xlsx
+robo.log
+.venv/
+__pycache__/
