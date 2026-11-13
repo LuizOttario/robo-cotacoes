@@ -2,6 +2,14 @@
 
 Robô que abre o navegador sozinho, lê a cotação de **dólar, euro, libra, bitcoin e ether** no Google Finanças, salva tudo numa planilha Excel com gráficos, avisa quando um preço passa do limite e manda o relatório por e-mail, todo dia, sem ninguém precisar fazer nada.
 
+Planilha gerada pelo robô (aqui foram 6 execuções seguidas, uma por minuto, só pra teste):
+
+![Aba Cotações da planilha](docs/planilha.png)
+
+Aba de gráficos, com um gráfico por moeda:
+
+<img src="docs/graficos.png" alt="Aba Gráficos da planilha" width="420">
+
 ## Funcionalidades
 - **Automação do navegador (RPA)**: abre o Chrome e lê os preços direto da página
 - **Planilha Excel**: uma linha por execução, com data, hora e formato de moeda
